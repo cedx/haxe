@@ -1883,4 +1883,14 @@ extern class Global {
 		@see http://php.net/manual/en/function.quoted-printable-encode.php
 	**/
 	static function quoted_printable_encode(string:String):String;
+
+	/**
+		@see http://php.net/manual/en/function.is-soap-fault.php
+	**/
+	static function is_soap_fault(object:Any):Bool;
+
+	/**
+		@see http://php.net/manual/en/function.use-soap-error-handler.php
+	**/
+	static function use_soap_error_handler(enable:Bool = true):Bool;
 }
